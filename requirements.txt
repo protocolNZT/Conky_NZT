@@ -1,0 +1,7 @@
+# sudo pip install -r requirements.txt
+#
+pip>=19.1.1
+requests>=2.22.0
+bs4>=0.0.1
+lxml>=4.4.2
+pyowm>=2.10.0
