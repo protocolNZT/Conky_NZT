@@ -22,7 +22,6 @@ def finance_parse(base_url, headers):
         soup = bs(request.content, 'lxml')
         div = soup.find('div', {'class': 'dropdown_content'})
         title = str(textwrap.wrap(div.text))
-        print(title)
         cource_txt = (title[3:14])
         date_daily = (title[29:39])
         date_now = (title[40:50])
